@@ -1,0 +1,218 @@
+"iso3c","country","income_group","region","population","small_state_flag"
+"AFG","Afghanistan","Low income","Middle East, North Africa, Afghanistan & Pakistan",43844111,FALSE
+"ALB","Albania","Upper middle income","Europe & Central Asia",2349580,FALSE
+"DZA","Algeria","Upper middle income","Middle East, North Africa, Afghanistan & Pakistan",47435312,FALSE
+"ASM","American Samoa","High income","East Asia & Pacific",46029,TRUE
+"AND","Andorra","High income","Europe & Central Asia",82904,TRUE
+"AGO","Angola","Lower middle income","Sub-Saharan Africa ",39040039,FALSE
+"ATG","Antigua and Barbuda","High income","Latin America & Caribbean ",94209,TRUE
+"ARG","Argentina","Upper middle income","Latin America & Caribbean ",45851378,FALSE
+"ARM","Armenia","Upper middle income","Europe & Central Asia",3086700,FALSE
+"ABW","Aruba","High income","Latin America & Caribbean ",108785,TRUE
+"AUS","Australia","High income","East Asia & Pacific",27614411,FALSE
+"AUT","Austria","High income","Europe & Central Asia",9208163,FALSE
+"AZE","Azerbaijan","Upper middle income","Europe & Central Asia",10246996,FALSE
+"BHS","Bahamas, The","High income","Latin America & Caribbean ",403033,TRUE
+"BHR","Bahrain","High income","Middle East, North Africa, Afghanistan & Pakistan",1600366,FALSE
+"BGD","Bangladesh","Lower middle income","South Asia",175686899,FALSE
+"BRB","Barbados","High income","Latin America & Caribbean ",282623,TRUE
+"BLR","Belarus","Upper middle income","Europe & Central Asia",9085991,FALSE
+"BEL","Belgium","High income","Europe & Central Asia",11941781,FALSE
+"BLZ","Belize","Upper middle income","Latin America & Caribbean ",422924,TRUE
+"BEN","Benin","Lower middle income","Sub-Saharan Africa ",14814460,FALSE
+"BMU","Bermuda","High income","North America",64555,TRUE
+"BTN","Bhutan","Lower middle income","South Asia",796682,TRUE
+"BOL","Bolivia","Lower middle income","Latin America & Caribbean ",12581843,FALSE
+"BIH","Bosnia and Herzegovina","Upper middle income","Europe & Central Asia",3140095,FALSE
+"BWA","Botswana","Upper middle income","Sub-Saharan Africa ",2562122,FALSE
+"BRA","Brazil","Upper middle income","Latin America & Caribbean ",212812405,FALSE
+"VGB","British Virgin Islands","High income","Latin America & Caribbean ",39732,TRUE
+"BRN","Brunei Darussalam","High income","East Asia & Pacific",466330,TRUE
+"BGR","Bulgaria","High income","Europe & Central Asia",6433302,FALSE
+"BFA","Burkina Faso","Low income","Sub-Saharan Africa ",24074580,FALSE
+"BDI","Burundi","Low income","Sub-Saharan Africa ",14390003,FALSE
+"CPV","Cabo Verde","Upper middle income","Sub-Saharan Africa ",527326,TRUE
+"KHM","Cambodia","Lower middle income","East Asia & Pacific",17847982,FALSE
+"CMR","Cameroon","Lower middle income","Sub-Saharan Africa ",29879337,FALSE
+"CAN","Canada","High income","North America",41651653,FALSE
+"CYM","Cayman Islands","High income","Latin America & Caribbean ",75844,TRUE
+"CAF","Central African Republic","Low income","Sub-Saharan Africa ",5513282,FALSE
+"TCD","Chad","Low income","Sub-Saharan Africa ",21003705,FALSE
+"CHI","Channel Islands","High income","Europe & Central Asia",168466,TRUE
+"CHL","Chile","High income","Latin America & Caribbean ",19859921,FALSE
+"CHN","China","Upper middle income","East Asia & Pacific",1406585000,FALSE
+"COL","Colombia","Upper middle income","Latin America & Caribbean ",53425635,FALSE
+"COM","Comoros","Lower middle income","Sub-Saharan Africa ",882847,TRUE
+"COD","Congo, Dem. Rep.","Low income","Sub-Saharan Africa ",112832473,FALSE
+"COG","Congo, Rep.","Lower middle income","Sub-Saharan Africa ",6484437,FALSE
+"CRI","Costa Rica","High income","Latin America & Caribbean ",5152950,FALSE
+"CIV","Cote d'Ivoire","Lower middle income","Sub-Saharan Africa ",32711547,FALSE
+"HRV","Croatia","High income","Europe & Central Asia",3876200,FALSE
+"CUB","Cuba","Upper middle income","Latin America & Caribbean ",10937203,FALSE
+"CUW","Curacao","High income","Latin America & Caribbean ",156263,TRUE
+"CYP","Cyprus","High income","Europe & Central Asia",1370754,TRUE
+"CZE","Czechia","High income","Europe & Central Asia",10886878,FALSE
+"DNK","Denmark","High income","Europe & Central Asia",6009169,FALSE
+"DJI","Djibouti","Lower middle income","Middle East, North Africa, Afghanistan & Pakistan",1184076,TRUE
+"DMA","Dominica","Upper middle income","Latin America & Caribbean ",65871,TRUE
+"DOM","Dominican Republic","Upper middle income","Latin America & Caribbean ",11520487,FALSE
+"ECU","Ecuador","Upper middle income","Latin America & Caribbean ",18289896,FALSE
+"EGY","Egypt, Arab Rep.","Lower middle income","Middle East, North Africa, Afghanistan & Pakistan",118365995,FALSE
+"SLV","El Salvador","Upper middle income","Latin America & Caribbean ",6365503,FALSE
+"GNQ","Equatorial Guinea","Upper middle income","Sub-Saharan Africa ",1938431,FALSE
+"ERI","Eritrea","Low income","Sub-Saharan Africa ",3607003,FALSE
+"EST","Estonia","High income","Europe & Central Asia",1366475,TRUE
+"SWZ","Eswatini","Lower middle income","Sub-Saharan Africa ",1256174,TRUE
+"ETH","Ethiopia","Low income","Sub-Saharan Africa ",135472051,FALSE
+"FRO","Faroe Islands","High income","Europe & Central Asia",54900,TRUE
+"FJI","Fiji","Upper middle income","East Asia & Pacific",933154,TRUE
+"FIN","Finland","High income","Europe & Central Asia",5646436,FALSE
+"FRA","France","High income","Europe & Central Asia",68720337,FALSE
+"PYF","French Polynesia","High income","East Asia & Pacific",282465,TRUE
+"GAB","Gabon","Upper middle income","Sub-Saharan Africa ",2593130,FALSE
+"GMB","Gambia, The","Low income","Sub-Saharan Africa ",2822093,FALSE
+"GEO","Georgia","Upper middle income","Europe & Central Asia",3935766,FALSE
+"DEU","Germany","High income","Europe & Central Asia",83491249,FALSE
+"GHA","Ghana","Lower middle income","Sub-Saharan Africa ",35064272,FALSE
+"GIB","Gibraltar","High income","Europe & Central Asia",40126,TRUE
+"GRC","Greece","High income","Europe & Central Asia",10413962,FALSE
+"GRL","Greenland","High income","Europe & Central Asia",56831,TRUE
+"GRD","Grenada","Upper middle income","Latin America & Caribbean ",117303,TRUE
+"GUM","Guam","High income","East Asia & Pacific",168999,TRUE
+"GTM","Guatemala","Upper middle income","Latin America & Caribbean ",18687881,FALSE
+"GIN","Guinea","Lower middle income","Sub-Saharan Africa ",15099727,FALSE
+"GNB","Guinea-Bissau","Low income","Sub-Saharan Africa ",2249515,FALSE
+"GUY","Guyana","High income","Latin America & Caribbean ",835986,TRUE
+"HTI","Haiti","Lower middle income","Latin America & Caribbean ",11906095,FALSE
+"HND","Honduras","Lower middle income","Latin America & Caribbean ",11005850,FALSE
+"HKG","Hong Kong SAR, China","High income","East Asia & Pacific",7498900,FALSE
+"HUN","Hungary","High income","Europe & Central Asia",9514251,FALSE
+"ISL","Iceland","High income","Europe & Central Asia",392404,TRUE
+"IND","India","Lower middle income","South Asia",1463865525,FALSE
+"IDN","Indonesia","Upper middle income","East Asia & Pacific",285721236,FALSE
+"IRN","Iran, Islamic Rep.","Upper middle income","Middle East, North Africa, Afghanistan & Pakistan",92417681,FALSE
+"IRQ","Iraq","Upper middle income","Middle East, North Africa, Afghanistan & Pakistan",47020774,FALSE
+"IRL","Ireland","High income","Europe & Central Asia",5484367,FALSE
+"IMN","Isle of Man","High income","Europe & Central Asia",84118,TRUE
+"ISR","Israel","High income","Middle East, North Africa, Afghanistan & Pakistan",10122800,FALSE
+"ITA","Italy","High income","Europe & Central Asia",58915656,FALSE
+"JAM","Jamaica","Upper middle income","Latin America & Caribbean ",2837077,FALSE
+"JPN","Japan","High income","East Asia & Pacific",123366734,FALSE
+"JOR","Jordan","Upper middle income","Middle East, North Africa, Afghanistan & Pakistan",11520684,FALSE
+"KAZ","Kazakhstan","Upper middle income","Europe & Central Asia",20843754,FALSE
+"KEN","Kenya","Lower middle income","Sub-Saharan Africa ",57532493,FALSE
+"KIR","Kiribati","Lower middle income","East Asia & Pacific",136488,TRUE
+"PRK","Korea, Dem. People's Rep.","Low income","East Asia & Pacific",26571036,FALSE
+"KOR","Korea, Rep.","High income","East Asia & Pacific",51684564,FALSE
+"XKX","Kosovo","Upper middle income","Europe & Central Asia",1576876,FALSE
+"KWT","Kuwait","High income","Middle East, North Africa, Afghanistan & Pakistan",4865298,FALSE
+"KGZ","Kyrgyz Republic","Lower middle income","Europe & Central Asia",7343064,FALSE
+"LAO","Lao PDR","Lower middle income","East Asia & Pacific",7873046,FALSE
+"LVA","Latvia","High income","Europe & Central Asia",1847785,FALSE
+"LBN","Lebanon","Lower middle income","Middle East, North Africa, Afghanistan & Pakistan",5849421,FALSE
+"LSO","Lesotho","Lower middle income","Sub-Saharan Africa ",2363325,FALSE
+"LBR","Liberia","Low income","Sub-Saharan Africa ",5731206,FALSE
+"LBY","Libya","Upper middle income","Middle East, North Africa, Afghanistan & Pakistan",7458555,FALSE
+"LIE","Liechtenstein","High income","Europe & Central Asia",41024,TRUE
+"LTU","Lithuania","High income","Europe & Central Asia",2888774,FALSE
+"LUX","Luxembourg","High income","Europe & Central Asia",686970,TRUE
+"MAC","Macao SAR, China","High income","East Asia & Pacific",685900,TRUE
+"MDG","Madagascar","Low income","Sub-Saharan Africa ",32740678,FALSE
+"MWI","Malawi","Low income","Sub-Saharan Africa ",22216120,FALSE
+"MYS","Malaysia","Upper middle income","East Asia & Pacific",35977838,FALSE
+"MDV","Maldives","Upper middle income","South Asia",529676,TRUE
+"MLI","Mali","Low income","Sub-Saharan Africa ",25198821,FALSE
+"MLT","Malta","High income","Middle East, North Africa, Afghanistan & Pakistan",579704,TRUE
+"MHL","Marshall Islands","Upper middle income","East Asia & Pacific",36282,TRUE
+"MRT","Mauritania","Lower middle income","Sub-Saharan Africa ",5315065,FALSE
+"MUS","Mauritius","Upper middle income","Sub-Saharan Africa ",1243741,TRUE
+"MEX","Mexico","Upper middle income","Latin America & Caribbean ",131946900,FALSE
+"FSM","Micronesia, Fed. Sts.","Upper middle income","East Asia & Pacific",113683,TRUE
+"MDA","Moldova","Upper middle income","Europe & Central Asia",2360527,FALSE
+"MCO","Monaco","High income","Europe & Central Asia",38341,TRUE
+"MNG","Mongolia","Upper middle income","East Asia & Pacific",3568978,FALSE
+"MNE","Montenegro","Upper middle income","Europe & Central Asia",623129,TRUE
+"MAR","Morocco","Lower middle income","Middle East, North Africa, Afghanistan & Pakistan",38430770,FALSE
+"MOZ","Mozambique","Low income","Sub-Saharan Africa ",35631653,FALSE
+"MMR","Myanmar","Lower middle income","East Asia & Pacific",54850648,FALSE
+"NAM","Namibia","Lower middle income","Sub-Saharan Africa ",3092816,FALSE
+"NRU","Naoero","High income","East Asia & Pacific",12025,TRUE
+"NPL","Nepal","Lower middle income","South Asia",29618118,FALSE
+"NLD","Netherlands","High income","Europe & Central Asia",18087633,FALSE
+"NCL","New Caledonia","High income","East Asia & Pacific",295333,TRUE
+"NZL","New Zealand","High income","East Asia & Pacific",5324700,FALSE
+"NIC","Nicaragua","Lower middle income","Latin America & Caribbean ",7007502,FALSE
+"NER","Niger","Low income","Sub-Saharan Africa ",27917831,FALSE
+"NGA","Nigeria","Lower middle income","Sub-Saharan Africa ",237527782,FALSE
+"MKD","North Macedonia","Upper middle income","Europe & Central Asia",1820909,FALSE
+"MNP","Northern Mariana Islands","High income","East Asia & Pacific",43541,TRUE
+"NOR","Norway","High income","Europe & Central Asia",5610870,FALSE
+"OMN","Oman","High income","Middle East, North Africa, Afghanistan & Pakistan",5494691,FALSE
+"PAK","Pakistan","Lower middle income","Middle East, North Africa, Afghanistan & Pakistan",255219554,FALSE
+"PLW","Palau","High income","East Asia & Pacific",17663,TRUE
+"PAN","Panama","High income","Latin America & Caribbean ",4571189,FALSE
+"PNG","Papua New Guinea","Lower middle income","East Asia & Pacific",10762817,FALSE
+"PRY","Paraguay","Upper middle income","Latin America & Caribbean ",7013078,FALSE
+"PER","Peru","Upper middle income","Latin America & Caribbean ",34576665,FALSE
+"PHL","Philippines","Upper middle income","East Asia & Pacific",116786962,FALSE
+"POL","Poland","High income","Europe & Central Asia",36435861,FALSE
+"PRT","Portugal","High income","Europe & Central Asia",10804871,FALSE
+"PRI","Puerto Rico (US)","High income","Latin America & Caribbean ",3184835,FALSE
+"QAT","Qatar","High income","Middle East, North Africa, Afghanistan & Pakistan",2972215,FALSE
+"ROU","Romania","High income","Europe & Central Asia",19020271,FALSE
+"RUS","Russian Federation","High income","Europe & Central Asia",143513328,FALSE
+"RWA","Rwanda","Low income","Sub-Saharan Africa ",14569341,FALSE
+"WSM","Samoa","Upper middle income","East Asia & Pacific",219306,TRUE
+"SMR","San Marino","High income","Europe & Central Asia",34109,TRUE
+"STP","Sao Tome and Principe","Lower middle income","Sub-Saharan Africa ",240254,TRUE
+"SAU","Saudi Arabia","High income","Middle East, North Africa, Afghanistan & Pakistan",36973555,FALSE
+"SEN","Senegal","Lower middle income","Sub-Saharan Africa ",18931966,FALSE
+"SRB","Serbia","Upper middle income","Europe & Central Asia",6549143,FALSE
+"SYC","Seychelles","High income","Sub-Saharan Africa ",122730,TRUE
+"SLE","Sierra Leone","Low income","Sub-Saharan Africa ",8819794,FALSE
+"SGP","Singapore","High income","East Asia & Pacific",6111175,FALSE
+"SXM","Sint Maarten (Dutch part)","High income","Latin America & Caribbean ",43923,TRUE
+"SVK","Slovak Republic","High income","Europe & Central Asia",5413813,FALSE
+"SVN","Slovenia","High income","Europe & Central Asia",2130986,FALSE
+"SLB","Solomon Islands","Lower middle income","East Asia & Pacific",838645,TRUE
+"SOM","Somalia, Fed. Rep.","Low income","Sub-Saharan Africa ",19654739,FALSE
+"ZAF","South Africa","Upper middle income","Sub-Saharan Africa ",64747319,FALSE
+"SSD","South Sudan","Low income","Sub-Saharan Africa ",12188788,FALSE
+"ESP","Spain","High income","Europe & Central Asia",49355143,FALSE
+"LKA","Sri Lanka","Upper middle income","South Asia",21756000,FALSE
+"KNA","St. Kitts and Nevis","High income","Latin America & Caribbean ",46922,TRUE
+"LCA","St. Lucia","Upper middle income","Latin America & Caribbean ",180149,TRUE
+"MAF","St. Martin (French part)","High income","Latin America & Caribbean ",24941,TRUE
+"VCT","St. Vincent and the Grenadines","Upper middle income","Latin America & Caribbean ",99924,TRUE
+"SDN","Sudan","Low income","Sub-Saharan Africa ",51662147,FALSE
+"SUR","Suriname","Upper middle income","Latin America & Caribbean ",639850,TRUE
+"SWE","Sweden","High income","Europe & Central Asia",10596620,FALSE
+"CHE","Switzerland","High income","Europe & Central Asia",9092436,FALSE
+"SYR","Syrian Arab Republic","Low income","Middle East, North Africa, Afghanistan & Pakistan",25620427,FALSE
+"TJK","Tajikistan","Lower middle income","Europe & Central Asia",10786734,FALSE
+"TZA","Tanzania","Lower middle income","Sub-Saharan Africa ",70545865,FALSE
+"THA","Thailand","Upper middle income","East Asia & Pacific",71619863,FALSE
+"TLS","Timor-Leste","Lower middle income","East Asia & Pacific",1418517,TRUE
+"TGO","Togo","Lower middle income","Sub-Saharan Africa ",8591626,FALSE
+"TON","Tonga","Upper middle income","East Asia & Pacific",103742,TRUE
+"TTO","Trinidad and Tobago","High income","Latin America & Caribbean ",1367764,TRUE
+"TUN","Tunisia","Lower middle income","Middle East, North Africa, Afghanistan & Pakistan",12348573,FALSE
+"TUR","Turkiye","Upper middle income","Europe & Central Asia",85878556,FALSE
+"TKM","Turkmenistan","Upper middle income","Europe & Central Asia",7618847,FALSE
+"TCA","Turks and Caicos Islands","High income","Latin America & Caribbean ",46855,TRUE
+"TUV","Tuvalu","Upper middle income","East Asia & Pacific",9492,TRUE
+"UGA","Uganda","Low income","Sub-Saharan Africa ",51384894,FALSE
+"UKR","Ukraine","Upper middle income","Europe & Central Asia",38980376,FALSE
+"ARE","United Arab Emirates","High income","Middle East, North Africa, Afghanistan & Pakistan",11513149,FALSE
+"GBR","United Kingdom","High income","Europe & Central Asia",69487000,FALSE
+"USA","United States","High income","North America",341784857,FALSE
+"URY","Uruguay","High income","Latin America & Caribbean ",3384688,FALSE
+"UZB","Uzbekistan","Lower middle income","Europe & Central Asia",37053428,FALSE
+"VUT","Vanuatu","Lower middle income","East Asia & Pacific",335169,TRUE
+"VEN","Venezuela, RB","Lower middle income","Latin America & Caribbean ",28516896,FALSE
+"VNM","Viet Nam","Upper middle income","East Asia & Pacific",101598527,FALSE
+"VIR","Virgin Islands (U.S.)","High income","Latin America & Caribbean ",103792,TRUE
+"PSE","West Bank and Gaza","Lower middle income","Middle East, North Africa, Afghanistan & Pakistan",5413596,FALSE
+"YEM","Yemen, Rep.","Low income","Middle East, North Africa, Afghanistan & Pakistan",41773878,FALSE
+"ZMB","Zambia","Lower middle income","Sub-Saharan Africa ",21913874,FALSE
+"ZWE","Zimbabwe","Lower middle income","Sub-Saharan Africa ",16950795,FALSE
