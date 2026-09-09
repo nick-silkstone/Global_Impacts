@@ -1,0 +1,51 @@
+name: Merge nightly impacts
+
+# Runs automatically whenever candidate_impacts.csv changes on main (i.e.
+# whenever the nightly Cowork trawl task commits its findings). Also
+# runnable manually from the Actions tab for testing (workflow_dispatch).
+#
+# This is the piece that closes the loop: the nightly task never touches
+# latest_impacts.csv directly (see nightly_task_prompt_draft.md) — this
+# Action is what actually runs the deterministic merge/prune/archive step
+# against it.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'candidate_impacts.csv'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run merge/prune/archive script
+        run: |
+          python3 merge_impacts.py \
+            --latest latest_impacts.csv \
+            --candidate candidate_impacts.csv \
+            --archive-dir .
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add latest_impacts.csv "*_impacts.csv"
+          if git diff --cached --quiet; then
+            echo "No changes to commit (merge produced an identical file)."
+          else
+            git commit -m "Automated merge: $(date -u +%Y-%m-%d) nightly impacts update"
+            git push
+          fi
