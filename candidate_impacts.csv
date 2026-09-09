@@ -1,0 +1,1 @@
+impact_id,event_id,parent_event_name,hazard_category,hazard_type,country,iso3c,locality,lat,lon,geolocation_confidence,date_occurred,date_logged,date_last_updated,severity_level,severity_confidence,casualties,displaced,support_required,recovery_time_estimate,cost_pct_gdp,severity_rationale,description,source_1_url,source_2_url,source_3_url
