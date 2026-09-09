@@ -33,14 +33,14 @@ impacts are out of scope by design — do not log them even if found.
 
 ## Sources
 
+[PLACEHOLDER — confirm/edit this list]
+
 - Wire services: Reuters, Associated Press, AFP
 - Major outlets: BBC, The Guardian, Al Jazeera
-- Specialist natural hazards news websites: https://watchers.news/  and https://www.accuweather.com/en/weather-news 
 - Geophysical monitoring: USGS (earthquakes), Smithsonian Global Volcanism
-  Program (eruptions), GDACS, https://mapping.emergency.copernicus.eu/ 
+  Program (eruptions), GDACS
 - Humanitarian/impact tracking: ReliefWeb, national disaster management
   agency releases where available
-
 
 Prefer sources that appear in 2 of these categories for the same event
 where possible. Do not use unverified social media, blogs, or single-source
@@ -64,7 +64,16 @@ one wire service or monitoring body before logging.
    first.
 6. If this is a revision of an existing logged event (firmer numbers,
    updated severity), update that row's fields and `date_last_updated`
-   rather than creating a new row — keep the same `impact_id`.
+   rather than creating a new row — keep the same `impact_id`. Only move
+   `date_occurred` forward if the **physical hazard itself** genuinely
+   continued or recurred at that location (another day of a heatwave, a
+   storm still tracking through, renewed eruptive activity) — never move
+   it forward just because the casualty/damage figures were updated or
+   there's fresh rescue-effort news. A same-day trigger event (glacier
+   collapse, single flash flood, tornado) keeps its original
+   `date_occurred` indefinitely, even while still being actively revised
+   in the press weeks later — see addendum Section 3 for why that's
+   intended, not a bug.
 
 ## Output
 

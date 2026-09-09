@@ -116,6 +116,37 @@ both carrying the same `event_id`. This keeps the 10-day pruning window
 either pruning a country's row too early or keeping the whole event alive
 past 10 days because one country's impact is more recent than another's.
 
+**`date_occurred` tracks the physical hazard, not the news cycle.** This is
+a deliberately narrow rule, worth stating precisely because it's easy to
+get wrong in the direction that quietly breaks the dataset's purpose:
+
+- `date_occurred` moves forward *only* when the hazard itself is still
+  physically active and producing new impacts at that location — another
+  day of a multi-day heatwave, a storm track still passing through,
+  renewed eruptive activity, a second landslide at the same site. For a
+  same-day trigger event (a glacier collapse, a single flash flood, a
+  tornado), `date_occurred` is that one day, full stop — even if the event
+  remains front-page news, and even if the casualty toll keeps climbing,
+  for weeks afterward.
+- `date_occurred` does **not** move forward for casualty/displacement
+  figure revisions, damage assessment updates, rescue-effort news, or any
+  other development that reflects ongoing *reporting* about the hazard's
+  past impact rather than the hazard *itself* continuing to occur.
+  `date_last_updated` is what tracks those revisions — update that field
+  freely; leave `date_occurred` alone unless the physical hazard genuinely
+  continued or recurred.
+- A same-day event that ages out of `latest_impacts.csv` after 10 days
+  despite still being actively revised in the press is the **intended**
+  behaviour, not a bug — this dataset tracks current weather/geohazard
+  exposure (does today's rain worsen yesterday's landslide zone? did a
+  lahar follow an eruption?) and recent-forecast verification, not general
+  disaster-recovery news. Slow-moving casualty updates on an old event
+  belong in the archive files, not in "latest."
+
+An earlier draft of this rule moved `date_occurred` forward on any
+materially new impact information, including casualty revisions — that
+was wrong for this dataset's actual purpose and has been corrected here.
+
 **Naming consistency matters for linking.** Use the same `parent_event_name`
 spelling/wording across all rows and all trawl nights for the same event
 (don't let one night log "Hurricane Mirela" and a later night log "Storm

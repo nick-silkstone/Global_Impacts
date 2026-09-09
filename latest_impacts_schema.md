@@ -17,7 +17,7 @@ Section 3 of the severity addendum) produce multiple rows sharing an
 | 9 | `lat` | number | decimal degrees | See geolocation_confidence — this may be a district/region centroid, not a precise point. |
 | 10 | `lon` | number | decimal degrees | As above. |
 | 11 | `geolocation_confidence` | text | `precise` \| `locality` \| `region` \| `country` | How tightly the lat/lon is actually known, per the source reporting. |
-| 12 | `date_occurred` | date | `YYYY-MM-DD` | Date impact materialised *in this country* — not the event's overall start date (see addendum Section 3 for the multi-country case). |
+| 12 | `date_occurred` | date | `YYYY-MM-DD` | Last date the **physical hazard itself** was actively occurring at this location — not the event's overall start date for multi-country cases, and not the date of the most recent casualty/damage-report update. Moves forward only if the hazard genuinely continues or recurs (another day of a heatwave, a storm still tracking through); never moves forward for revised casualty figures or rescue-effort news alone. See addendum Section 3. |
 | 13 | `date_logged` | date | `YYYY-MM-DD` | Date this row was first written by the trawl. |
 | 14 | `date_last_updated` | date | `YYYY-MM-DD` | Date this row's fields were last revised (e.g. a casualty figure firmed up on a later night). Equals `date_logged` on first write. |
 | 15 | `severity_level` | text | `Low` \| `Medium` \| `High` | Very Low is out of scope by design — your own schema doc excludes it from standard logging. |
@@ -47,6 +47,17 @@ doesn't attribute it to recent rainfall/weather (e.g. the August 2026 Nepal
 glacier collapse). If a source does attribute a landslide to recent heavy
 rain, log it under Weather → `Flood` instead, with the landslide noted in
 `description`.
+
+## Why 10 days
+
+The 10-day window is a deliberate compromise between this dataset's two
+operational uses: situational awareness of recent weather/geohazard
+exposure (where ~14 days back is the more natural window — e.g. does
+today's rain worsen a wildfire burn scar or a recent landslide zone?), and
+verifying a 7-day forecast product against what actually occurred. 10 days
+covers the forecast-verification case with a few days' margin and stays
+close enough to the situational-awareness case to remain useful for both,
+without the dataset drifting into being a general disaster-recovery feed.
 
 ## Notes for the merge/prune/archive script
 
